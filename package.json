@@ -5,6 +5,9 @@
   "author": "George Bockari <bitwhys@gmail.com>",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "electron-webpack dev"
+  },
   "electronWebpack": {
     "staticSourceDirectory": "src/renderer/template/dist",
     "main": {
@@ -103,6 +106,7 @@
     "electron-builder": "^21.1.0",
     "electron-builder-squirrel-windows": "^21.1.0",
     "electron-devtools-installer": "^2.2.4",
+    "electron-webpack": "^2.7.4",
     "electron-webpack-ts": "^3.2.0",
     "prettier": "^1.18.2",
     "react-hot-loader": "^4.12.8",
@@ -116,6 +120,8 @@
   },
   "dependencies": {
     "antd": "^3.20.3",
+    "mobx": "^5.13.0",
+    "mobx-react": "^6.1.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
